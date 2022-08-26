@@ -1,0 +1,16 @@
+1) EN u nuevo terminal, ejecutar:
+    pip install -r requirements.txt
+
+2) ejecutar:
+    python -m notebook
+Si recibes el error "No module named notebook" es porque debes instalar notebook mediante el siguiente código:
+    pip install notebook
+
+3) Repite el paso 2)
+
+Se abrirá una pestaña en el navegador con la siguiente dirección: http://localhost:8888/tree
+
+4) En finished_files podrás encontrar el archivo que quieras. Debes ejecutarlo y luego ir copiando los comandos en un nuevo archivo .py
+
+5) Si alguna libreria no la tienes instalada en tu computadora, la puedes instalar con "pip install (nombre de la librería)"
+Si te falta "pandas", ejecuta "pip install pandas"
